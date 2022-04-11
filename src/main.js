@@ -4,6 +4,9 @@ import vuetify from './plugins/vuetify'
 import router from "./router"
 import store from './store'
 
+import { registerModules } from "./register-modules";
+registerModules({});
+
 Vue.config.productionTip = false
 
 new Vue({
